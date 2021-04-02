@@ -1,0 +1,30 @@
+Input sequence: ABC
+Output sequence: 012
+Dictionary:
+0 A
+1 B
+2 C
+3 AB
+4 BC
+
+Input sequence: ABCCA
+Output sequence: 01220
+Dictionary:
+0 A
+1 B
+2 C
+3 AB
+4 BC
+5 CC
+6 CA
+
+Input sequence: ABCABC
+Output sequence: 01232
+Dictionary:
+0 A
+1 B
+2 C
+3 AB
+4 BC
+5 CA
+6 ABC
