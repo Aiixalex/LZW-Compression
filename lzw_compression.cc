@@ -10,7 +10,7 @@ int main() {
     vector<string> input_str_list;
     
     ifstream in_file;
-    in_file.open("Q1.in", ios::in);
+    in_file.open("test.in", ios::in);
     if (in_file.is_open()) {
         string temp;
         while (getline(in_file, temp)) {
@@ -28,7 +28,7 @@ int main() {
     }
 
     ofstream out_file;
-    out_file.open("Q1.out", ios::out);
+    out_file.open("test.out", ios::out);
 
     for (vector<string>::iterator it = input_str_list.begin(); it < input_str_list.end(); it++) {
         string input_str = *it;
